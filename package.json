@@ -49,5 +49,20 @@
   "lint-staged": {
     "*.{js, ts, tsx}": "npm run lint:fix",
     "*.{js,ts,tsx,css,md,html,json}": "npm run format"
+  },
+  "alias": {
+    "assets": "./src/assets",
+    "components": "./src/components",
+    "config": "./src/config",
+    "features": "./src/features",
+    "hooks": "./src/hooks",
+    "lib": "./src/lib",
+    "providers": "./src/providers",
+    "routes": "./src/routes",
+    "services": "./src/services",
+    "stores": "./src/stores",
+    "test": "./src/test",
+    "types": "./src/types",
+    "utils": "./src/utils"
   }
 }
